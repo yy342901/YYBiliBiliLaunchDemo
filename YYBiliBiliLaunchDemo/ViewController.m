@@ -16,7 +16,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    UILabel *title = [[UILabel alloc]initWithFrame:CGRectMake(100, 200, 200, 20)];
+    title.text = @"这里是主页";
+    [self.view addSubview:title];
+    
+    
+    
+    self.view.backgroundColor = [UIColor whiteColor];
 }
 
 
